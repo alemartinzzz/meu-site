@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - AM developer</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <h1>Contato - AM developer</h1>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Fale Conosco</h2>
+            <p>Estamos sempre prontos para ajudar você a transformar suas ideias em realidade. Entre em contato com a gente e venha fazer seu orçamento.</p>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> contato@amdeveloper.com</p>
+                <p><strong>Telefone:</strong> +55 11 1234-5678</p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 AM developer. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

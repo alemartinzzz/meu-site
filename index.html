@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <img src="Logo_AM.webp" alt="Logo AM developer">
+        <nav id="nav-bar">
+            <a href="sobre_nos.html" target="_blank">Sobre Nós</a>
+            <a href="servicos.html" target="_blank">Serviços</a>
+            <a href="portfólio.html" target="_blank">Portfólio</a>
+            <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+        </nav>
+        <button id="menu-toggle"><i class="fas fa-bars"></i></button>
+    </header>
+    <div class="banner">
+        <h1>Transformando ideias em realidades digitais</h1>
+        <p>Inovando um projeto de cada vez.</p>
+    </div>
+    <div class="section" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Desde 2024, comprometidos com a excelência e a inovação no mundo digital.</p>
+        <div class="timeline">
+            <div class="timeline-event">
+                <h3>2024 - Fundação</h3>
+                <p>Nossa jornada começou em Aracaju, na universidade Tiradentes, com foco em desenvolvimento de software sob medida.</p>
+            </div>
+            <div class="timeline-event">
+                <h3>2024 - Expansão de Serviços</h3>
+                <p>Iniciamos projetos em novas áreas, incluindo aplicativos móveis e soluções de e-commerce.</p>
+            </div>
+            <div class="timeline-event">
+                <h3>2024 - Reconhecimento Internacional</h3>
+                <p>Nossos projetos ganharam destaque no mercado global, fortalecendo nossa presença internacional.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <i class="fas fa-laptop-code card-icon"></i>
+                <div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Projetamos e desenvolvemos websites que oferecem uma experiência de usuário excepcional, focados em atender às necessidades específicas de cada cliente.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <i class="fas fa-mobile-alt card-icon"></i>
+                <div>
+                    <h3>Aplicações Móveis</h3>
+                    <p>Desenvolvemos aplicativos móveis intuitivos e eficazes, otimizados para iOS e Android.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <i class="fas fa-network-wired card-icon"></i>
+                <div>
+                    <h3>Soluções em Software</h3>
+                    <p>Oferecemos soluções de software personalizadas, desde sistemas de gestão até automação de processos, ajudando empresas a aumentar sua eficiência operacional.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <i class="fas fa-headset card-icon"></i>
+                <div>
+                    <h3>Suporte de TI</h3>
+                    <p>Oferecemos suporte técnico especializado para garantir que seus sistemas e redes estejam sempre funcionando perfeitamente.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <i class="fas fa-lightbulb card-icon"></i>
+                <div>
+                    <h3>Consultoria de Tecnologia</h3>
+                    <p>Fornecemos consultoria estratégica para ajudar sua empresa a aproveitar ao máximo as tecnologias emergentes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="testemunhos">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testemunho">
+            <p>"A AM Developer transformou nossa visão em realidade. Altamente recomendados!"</p>
+            <h4>- Giancarlo Vasconcelos</h4>
+        </div>
+        <div class="testemunho">
+            <p>"A equipe é extremamente profissional e dedicada. Nossos projetos estão sempre em boas mãos."</p>
+            <h4>- Vinicius Lordão</h4>
+        </div>
+        <div class="testemunho">
+            <p>"Serviço excepcional e resultados surpreendentes. Não poderíamos estar mais satisfeitos."</p>
+            <h4>- Sandes</h4>
+        </div>
+    </div>
+    <div class="section" id="contato">
+        <h2>Entre em Contato</h2>
+        <form class="contact-form" id="contact-form">
+            <input type="text" placeholder="Seu Nome" style="border-bottom: 2px solid #00b2ff;">
+            <input type="email" placeholder="Seu E-mail" style="border-bottom: 2px solid #00b2ff;">
+            <textarea placeholder="Sua Mensagem"></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+        <div id="form-response" style="display: none;"></div>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    <footer class="footer">
+        <p>© 2024 AM Developer. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

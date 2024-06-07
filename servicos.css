@@ -1,0 +1,109 @@
+body {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        background: linear-gradient(to right, #a2d9ff, #00b2ff);
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    header {
+        background: #005792;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+    }
+    main {
+        padding: 40px 20px;
+    }
+    .content {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 800px;
+        transform: translateY(50px);
+        opacity: 0;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+    .service {
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .service:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .service h3 {
+        color: #005792;
+        margin-top: 0;
+    }
+    .service ul {
+        list-style: disc;
+        margin-left: 20px;
+    }
+    .service img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s;
+    }
+    .service img:hover {
+        transform: scale(1.05);
+    }
+    #orcamento-form {
+        display: flex;
+        flex-direction: column;
+    }
+    #orcamento-form label {
+        margin-top: 10px;
+    }
+    #orcamento-form input, 
+    #orcamento-form select, 
+    #orcamento-form textarea {
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-family: 'Roboto', sans-serif;
+    }
+    #orcamento-form button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #005792;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+        font-family: 'Roboto', sans-serif;
+    }
+    #orcamento-form button:hover {
+        background-color: #003f63;
+        transform: scale(1.05);
+    }
+    .whatsapp-link {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .whatsapp-link a {
+        color: #25D366;
+        font-size: 1.5em;
+        text-decoration: none;
+        transition: color 0.3s, transform 0.3s;
+    }
+    .whatsapp-link a:hover {
+        color: #128C7E;
+        transform: scale(1.1);
+    }
+    footer {
+        background: #005792;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+    }
+    

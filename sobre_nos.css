@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: linear-gradient(to right, #a2d9ff, #00b2ff);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header {
+    background: #005792;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+main {
+    padding: 40px 20px;
+}
+.content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #005792;
+}
+.developer-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+}
+.developer {
+    text-align: center;
+    margin: 20px;
+    flex: 1 0 200px;
+    max-width: 220px;
+}
+.developer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+.developer img:hover {
+    transform: scale(1.1);
+}
+.linkedin-icon i {
+    font-size: 2em;
+    color: #0077B5;
+    transition: color 0.3s;
+}
+.linkedin-icon i:hover {
+    color: #005582;
+}
+footer {
+    background: #005792;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}

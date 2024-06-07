@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - AM developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="servicos.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>Serviços - AM developer</h1>
+    </header>
+    <main>
+        <section id="servicos" class="content">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <h3><i class="fas fa-globe"></i> Desenvolvimento Web</h3>
+                <p>Oferecemos soluções completas de desenvolvimento web para criar sites e aplicativos web modernos, responsivos e de alta performance.</p>
+                <ul>
+                    <li>Design responsivo e amigável</li>
+                    <li>Desenvolvimento front-end e back-end</li>
+                    <li>Integração com APIs e serviços externos</li>
+                    <li>Otimização para SEO e performance</li>
+                </ul>
+                
+            </div>
+            <div class="service">
+                <h3><i class="fas fa-mobile-alt"></i> Aplicações Móveis</h3>
+                <p>Desenvolvemos aplicativos móveis intuitivos e eficientes para as principais plataformas, como iOS e Android, que melhoram a experiência do usuário.</p>
+                <ul>
+                    <li>Design responsivo e amigável</li>
+                    <li>Desenvolvimento nativo e híbrido</li>
+                    <li>Testes de usabilidade e performance</li>
+                    <li>Publicação e suporte nas lojas de aplicativos</li>
+                </ul>
+                
+            </div>
+            <div class="service">
+                <h3><i class="fas fa-laptop-code"></i> Soluções em Software</h3>
+                <p>Oferecemos soluções de software sob medida que atendem às necessidades específicas do seu negócio, garantindo alta performance e escalabilidade.</p>
+                <ul>
+                    <li>Análise e levantamento de requisitos</li>
+                    <li>Desenvolvimento ágil e iterativo</li>
+                    <li>Integração com sistemas existentes</li>
+                    <li>Manutenção e suporte contínuos</li>
+                </ul>
+                
+            </div>
+            <div class="service">
+                <h3><i class="fas fa-headset"></i> Suporte de TI</h3>
+                <p>Nosso suporte de TI oferece assistência técnica e manutenção para garantir que seus sistemas estejam sempre funcionando de forma eficiente.</p>
+                <ul>
+                    <li>Monitoramento contínuo</li>
+                    <li>Suporte técnico remoto e presencial</li>
+                    <li>Manutenção preventiva e corretiva</li>
+                    <li>Gerenciamento de rede e infraestrutura</li>
+                </ul>
+                
+            </div>
+            <div class="service">
+                <h3><i class="fas fa-chalkboard-teacher"></i> Consultoria de Tecnologia</h3>
+                <p>Nossa equipe de especialistas oferece consultoria em TI para ajudar seu negócio a utilizar a tecnologia de forma estratégica e eficiente.</p>
+                <ul>
+                    <li>Diagnóstico e planejamento estratégico</li>
+                    <li>Revisão e otimização de processos</li>
+                    <li>Implementação de melhores práticas</li>
+                    <li>Capacitação e treinamento de equipes</li>
+                </ul>
+                
+            </div>
+        </section>
+        <section id="orcamento" class="content">
+            <h2>Solicitar Orçamento</h2>
+            <form id="orcamento-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="servico">Serviço:</label>
+                <select id="servico" name="servico" required>
+                    <option value="web">Desenvolvimento Web</option>
+                    <option value="mobile">Aplicações Móveis</option>
+                    <option value="software">Soluções em Software</option>
+                    <option value="suporte">Suporte de TI</option>
+                    <option value="consultoria">Consultoria de Tecnologia</option>
+                </select>
+
+                <div id="orcamento-valor" style="display: none;">
+                    <label for="valor">Até quanto você deseja gastar?</label>
+                    <select id="valor" name="valor">
+                        <option value="5000">Até R$ 5.000</option>
+                        <option value="10000">Até R$ 10.000</option>
+                        <option value="20000">Até R$ 20.000</option>
+                        <option value="50000">Mais de R$ 20.000</option>
+                    </select>
+                </div>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="whatsapp-link">
+                <p>Ou entre em contato diretamente pelo WhatsApp:</p>
+                <a href="https://wa.me/79999760835" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 AM developer. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script_servicos.js"></script> <!-- Link para o arquivo JavaScript externo -->
+</body>
+</html>
